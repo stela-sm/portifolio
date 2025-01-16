@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Web</title>
+    <title>Portfolio - Stela</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="midia/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="midia/favicon-32x32.png" sizes="32x32" type="image/png">
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <style>
@@ -240,11 +243,11 @@
                 </ol>
                 <div class="carousel-inner" id="myCarousel">
                   <div class="carousel-item active" data-slide-number="0">
-                    <video class="d-block w-100" autoplay src="beco.mp4"></video>
+                    <video class="d-block w-100" autoplay loop muted src="midia/yara.mp4"></video>
                   </div>
                   
                   <div class="carousel-item" data-slide-number="1">
-                    <video class="d-block w-100" autoplay src="yara.mp4"></video>  </div>
+                    <video class="d-block w-100" autoplay loop muted src="midia/beco.mp4"></video>  </div>
                
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -349,7 +352,7 @@
           </tr>
           <tr>
             <td><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
-              <a href="https://www.linkedin.com/in/stelasm/">github.com/stela-sm</a>
+              <a href="https://github.com/stela-sm">github.com/stela-sm</a>
             </td>
           </tr>
         </table>
@@ -358,14 +361,14 @@
         </section>
 </body>
 <script>
-
+ 
 
    var title = $('.titleAside');
 var desc = $('.descricaoAside');
 
 var projetos = [
-  ['Beco - TCC 2024', "No projeto de TCC do curso técnico, desenvolvemos o BECO, uma plataforma e-commerce destinada a  artistas digitais em ascensão. Fui responsável pela criação da área administrativa, pela construção do Back-end e pela estruturação do banco de dados. Utilizei PHP e MySQL, implementei criptografia e ferramentas anti-injection para garantir a segurança do sistema, além de integrar AJAX em quase todas as requisições. Os processos desenvolvidos incluem login, cadastro, criação de publicações, comentários, likes e um sistema de chat.", "yara.mp4"],
-  ['Yara', 'No projeto escolar "Yara", uma plataforma de e-commerce dedicada à venda de produtos de skincare, fui responsável pelo desenvolvimento do back-end e pela modelação do banco de dados. Minha atuação incluiu a criação e otimização de processos essenciais como toda a área administrativa, login, cadastro de usuários, gestão de carrinho de compras e finalização de pedidos. Utilizei tecnologias como PHP para a lógica do servidor, JavaScript para funcionalidades dinâmicas, e CSS e HTML para a interface do usuário', "beco.mp4"],
+  ['Beco - TCC 2024', "No projeto de TCC do curso técnico, desenvolvemos o BECO, uma plataforma e-commerce destinada a  artistas digitais em ascensão. Fui responsável pela criação da área administrativa, pela construção do Back-end e pela estruturação do banco de dados. Utilizei PHP e MySQL, implementei criptografia e ferramentas anti-injection para garantir a segurança do sistema, além de integrar AJAX em quase todas as requisições. Os processos desenvolvidos incluem login, cadastro, criação de publicações, comentários, likes e um sistema de chat."],
+  ['Yara', 'No projeto escolar "Yara", uma plataforma de e-commerce dedicada à venda de produtos de skincare, fui responsável pelo desenvolvimento do back-end e pela modelação do banco de dados. Minha atuação incluiu a criação e otimização de processos essenciais como toda a área administrativa, login, cadastro de usuários, gestão de carrinho de compras e finalização de pedidos. Utilizei tecnologias como PHP para a lógica do servidor, JavaScript para funcionalidades dinâmicas, e CSS e HTML para a interface do usuário'],
 ];
 
 function mudarAside(id) {
@@ -374,14 +377,25 @@ function mudarAside(id) {
     desc.text(projetos[id][1]);  
 
 
-var activeItem = $('.carousel-item.active');
-var video = activeItem.find('video');
-video.attr('src', projetos[id][2]);
-var videoSrc = video.attr('src');
-console.log(videoSrc);
+// var activeItem = $('.carousel-item.active');
+// var video = activeItem.find('video');
+// video.attr('src', projetos[id][2]);
+// var videoSrc = video.attr('src');
+// console.log(videoSrc);
 }
 
-
+document.addEventListener('DOMContentLoaded', function() {
+    mudarAside(1)
+    mudarAside(0)
+    const nextButton = document.querySelector('.carousel-control-next');
+    if (nextButton) {
+      // Clicar duas vezes no botão
+      nextButton.click();
+      nextButton.click();
+      nextButton.click();
+      nextButton.click();
+    }
+  });
 
  $('#carouselExampleIndicators').on('slide.bs.carousel', function (event) {
 var ativo = $('.carousel-item.active');
