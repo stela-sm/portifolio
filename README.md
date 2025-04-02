@@ -18,7 +18,7 @@ Este portfólio foi desenvolvido utilizando as seguintes tecnologias:
 ✅ Integração com redes sociais.  
 
 ## 📌 Contato
-📧 **E-mail:** seuemail@email.com  
+📧 **E-mail:** stelamontenegro37@gmail.com  
 💼 **LinkedIn:** [linkedin.com/in/stelasm](linkedin.com/in/stelasm)    
  
 Se quiser colaborar ou trocar ideias, me mande uma mensagem! 😊
